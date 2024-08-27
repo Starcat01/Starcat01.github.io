@@ -18,7 +18,11 @@ p {
     width: 100%;
     margin: auto;
 }
-
+button[type="submit"]{
+    background color-#c7a17a
+    font-weight-700
+    text-transform-uppercase
+    
 /* 1 Header */
 .nav {
     overflow: auto;
