@@ -75,7 +75,7 @@ p {
     width: 45%;
 }
 
-.banner-text h2{
+.banner-text h2 {
     color: #c7a17a;
     font-size: 4em;
     text-transform: uppercase;
@@ -135,7 +135,7 @@ p {
     width: 40%;
 }
 
-.ads-text h3{
+.ads-text h3 {
     text-transform: uppercase;
     font-size: 2em;
     color: #fff;
@@ -143,7 +143,7 @@ p {
     text-shadow: 3px 3px 6px #312a26;
 }
 
-.ads-text a{
+.ads-text a {
     display: block;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -170,7 +170,7 @@ p {
     color: #c7a17a;
 }
 
-.section-header h2{
+.section-header h2 {
     text-transform: uppercase;
     color: #312a26;
 }
@@ -199,7 +199,7 @@ p {
     margin-right: 0;
 }
 
-.merch-items img{
+.merch-items img {
     width: 100%;
     height: 350px;
     object-fit: cover;
@@ -225,14 +225,14 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.discount-text span{
+.discount-text span {
     font-family: 'Raleway', sans-serif;
     color: #fff;
     font-style: italic;
     text-shadow: 3px 3px 6px #312a26;
 }
 
-.discount-text h2{
+.discount-text h2 {
     font-size: 2em;
     color: #fff;
     font-style: italic;
@@ -283,14 +283,14 @@ form {
     text-align: center;
 }
 
-.section-header span{
+.section-header span {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-style: italic;
     color: #c7a17a;
 }
 
-.section-header h2{
+.section-header h2 {
     text-transform: uppercase;
     color: #312a26;
 }
@@ -301,23 +301,25 @@ form {
     width: 25%;
     margin: auto;
 }
+
 form input,
 form label,
 form select,
-form textarea:
-      display - inline block
-      width - 100%
-      font family - Raleway, sans-serif
-      padding - 1em
-      margin bottom - 1 em
+form textarea {
+      display: inline-block;
+      width: 100%;
+      font family: Raleway, sans-serif;
+      padding: 1em;
+      margin bottom: 1 em;
+}
 
-form input[type="submit"] :
-      background color - #c7a17a
-      font-weight - 700
-      text-transform - uppercase
+form input[type="submit"] {
+      background-color: #c7a17a;
+      font-weight: 700;
+      text-transform: uppercase;
 
 .res-time {
-    width auto;
+    width: auto;
 }
 
 form p {
@@ -342,7 +344,7 @@ form p {
     width: 49.5%;
 }
 
-.form-group :nth-child(1){
+.form-group :nth-child(1) {
     margin-right: 1%;
 }
 
