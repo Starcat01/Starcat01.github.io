@@ -333,13 +333,13 @@ form h3 {
 
 form h3::after {
     content: "";
-    display: block; /* Added display property to ensure the pseudo-element takes space */
+    display: block; 
     background-image: url('../images/reservation-cards.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 150px;
     height: 30px;
-    margin: 10px auto; /* Added margin for better spacing */
+    margin: 10px auto; 
 }
 
 .res-agreement * {
