@@ -328,13 +328,18 @@ form h3 {
     text-align: center;
     text-transform: uppercase;
 }
-form .card-img {
+
+
+
+form h3::after {
+    content: "";
+    display: block; /* Added display property to ensure the pseudo-element takes space */
     background-image: url('../images/reservation-cards.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 150px;
     height: 30px;
-    margin: auto;
+    margin: 10px auto; /* Added margin for better spacing */
 }
 
 .res-agreement * {
