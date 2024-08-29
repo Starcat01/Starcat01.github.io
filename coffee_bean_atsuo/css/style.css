@@ -269,7 +269,7 @@ p {
     background-image: url('../images/ads-img6.jpg');
 }
 
-/* 8 Reservation Area */
+/* (8) Reservation area */
 .reservation {
     width: 85%;
     margin: 4em auto;
@@ -279,27 +279,18 @@ form {
     overflow: auto;
 }
 
-.section-header {
-    text-align: center;
+.form-group {
+    margin-top: 2em;
+    background-color: #f2f2f2;
+    float: left;
+    width: 49.5%;
+    border-radius: 5px;
+    padding: 2em;
+    height: 650px;
 }
 
-.section-header span {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-style: italic;
-    color: #c7a17a;
-}
-
-.section-header h2 {
-    text-transform: uppercase;
-    color: #312a26;
-}
-
-.section-header hr {
-    background-color: #c7a17a;
-    height: 2px;
-    width: 25%;
-    margin: auto;
+.form-group-1 {
+    margin-right: 1%;
 }
 
 form input,
@@ -313,13 +304,17 @@ form textarea {
     margin-bottom: 1em;
 }
 
-form input[type="submit"] {
-    background-color: #c7a17a;
+form label {
     font-weight: 700;
-    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: .5em;
 }
 
 .res-time {
+    text-align: center;
+}
+
+.res-time * {
     width: auto;
 }
 
@@ -329,34 +324,72 @@ form p {
     font-weight: 700;
 }
 
-form h3::after {
-    content: "";
-    background-position: center;
-    background-image: url('../images/reservation-cards.png');
-    background-size: contain; 
-    background-repeat: no-repeat;
-    display: block;
-    width: 150px;
-    height: 30px;
-}
-
-.form-group {
-    margin-top: 2em;
-    background-color: #f2f2f2;
-    float: left;
-    width: 49.5%;
-}
-
-.form-group:nth-child(1) {
-    margin-right: 1%;
-}
-
-.res-agreement {
-    width: auto;
-}
-
 form h3 {
     text-align: center;
     text-transform: uppercase;
+}
+form .card-img {
+    background-image: url('../images/reservation-cards.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 30px;
     margin: auto;
+}
+
+.res-agreement * {
+    width: auto;
+}
+
+form #btn-send {
+    background-color: #c7a17a;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* (9) Footer area */
+.footer {
+    background-image: url('../images/footer-img.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.footer-contents {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+
+.footer-widgets {
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+}
+
+.footer-widget-4 {
+    margin-right: 0;
+}
+
+.footer-widget h3 {
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px #312a26;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.footer-widget-h4 {
+    color: #fff;
+}
+
+.footer-widget p {
+    color: #c7a17a;
+}
+
+.footer td, th {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 3px 3px 6px #312a26;
 }
