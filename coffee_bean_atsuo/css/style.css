@@ -347,6 +347,12 @@ form #btn-send {
     text-transform: uppercase;
 }
 
+form input[type="submit"] {
+    background-color: #c7a17a;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 /* (9) Footer area */
 .footer {
     background-image: url('../images/footer-img.jpg');
