@@ -359,6 +359,7 @@ form input[type="submit"] {
 }
 
 /* (9) Footer area */
+
 .footer {
     background-image: url('../images/footer-img.jpg');
     background-size: cover;
@@ -379,11 +380,11 @@ form input[type="submit"] {
     margin-right: 1%;
 }
 
-.footer-widget-4 {
-    margin-right: 0;
+.footer-widgets:last-child {
+    margin-right: 0; /* Removes margin for the last widget */
 }
 
-.footer-widget h3 {
+.footer-widgets h3 {
     color: #fff;
     text-transform: uppercase;
     text-shadow: 3px 3px 6px #312a26;
@@ -391,16 +392,53 @@ form input[type="submit"] {
     margin-bottom: 1em;
 }
 
-.footer-widget-h4 {
+.footer-widgets h4 {
     color: #fff;
 }
 
-.footer-widget p {
+.footer-widgets p {
     color: #c7a17a;
 }
 
-.footer td, th {
+table {
+    width: 100%; 
+    color: #fff; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 0.5em;
+    text-shadow: 3px 3px 6px #312a26; 
+}
+
+.footer-form input[type="search"] {
+    padding: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc; 
+}
+
+.footer-form input[type="submit"] {
+    background-color: #c7a17a;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
-    text-shadow: 3px 3px 6px #312a26;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-social {
+    color: #fff;
+    background-color: #19100F;
+    overflow: auto;
+    padding: 1em 7.5%;
+}
+
+.social-widget {
+    text-align: center; 
+}
+
+.social-widget img {
+    width: 1.5em;
+    margin: 0 0.5em; 
 }
