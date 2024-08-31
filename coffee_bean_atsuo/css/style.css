@@ -369,10 +369,10 @@ form input[type="submit"] {
 }
 
 .footer-contents {
-    width: 110%;
+    width: 110%; /*85%*/
     margin: auto;
     overflow: auto;
-    margin-left: 10px;
+    margin-left: 10px; /* REMOVE/DELETE */
 }
 
 .footer-widgets {
@@ -381,7 +381,7 @@ form input[type="submit"] {
     margin-right: 1%;
 }
 
-.footer-widgets:last-child {
+.footer-widgets:last-child { /* .footer-widget-4*/
     margin-right: 0; 
 }
 
@@ -411,6 +411,14 @@ th, td {
     padding: 0.5em;
     text-shadow: 3px 3px 6px #312a26; 
 }
+
+/* 
+--------------------------------------------
+Added fixing of widths HERE */
+.footer-form * {
+    width: auto;
+}
+/* ----------------------------------------- */
 
 .footer-form input[type="search"] {
     padding: 0.5em;
