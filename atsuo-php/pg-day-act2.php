@@ -6,11 +6,10 @@
     <title>Days of the Week Activity</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Custom styles for border and background colors for each day */
         .day-monday {
             border: 3px solid blue;
-            background-color: blue; /* Inline background color same as border */
-            color: white; /* Text color for visibility */
+            background-color: blue; 
+            color: white;
         }
         .day-tuesday {
             border: 3px solid green;
@@ -32,9 +31,9 @@
             background-color: red;
             color: white;
         }
-        /* Style adjustments for hover effect */
+
         button:hover {
-            opacity: 0.8; /* Slightly change opacity on hover */
+            opacity: 0.8;
         }
     </style>
 </head>
@@ -60,25 +59,23 @@
             const dayHeader = document.getElementById('dayHeader');
             const selectedDay = document.getElementById('selectedDay');
 
-            dayHeader.innerHTML = "Clicked: " + day; // Update the header
-            selectedDay.innerHTML = ""; // Clear the selected day message
-
-            // Set font color based on the day
+            dayHeader.innerHTML = "Clicked: " + day;
+            selectedDay.innerHTML = "";
             switch(day) {
                 case 'Monday':
-                    dayHeader.style.color = "blue"; // Set header text color
+                    dayHeader.style.color = "blue";
                     break;
                 case 'Tuesday':
-                    dayHeader.style.color = "green"; // Set header text color
+                    dayHeader.style.color = "green";
                     break;
                 case 'Wednesday':
-                    dayHeader.style.color = "lightblue"; // Set header text color
+                    dayHeader.style.color = "lightblue";
                     break;
                 case 'Thursday':
-                    dayHeader.style.color = "yellow"; // Set header text color
+                    dayHeader.style.color = "yellow";
                     break;
                 case 'Friday':
-                    dayHeader.style.color = "red"; // Set header text color
+                    dayHeader.style.color = "red";
                     break;
             }
         }
