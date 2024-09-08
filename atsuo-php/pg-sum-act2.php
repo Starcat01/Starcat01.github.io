@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqk1w2/knoG80k332kR+M9sGOzCWl0ChilIqUeSbWkqb6GSbpHCpVB50lZOA1Oel+lFPfig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .sum-result {
-            font-size: 24px; /* Set the font size to 24px */
-            font-weight: bold; /* Optional: makes the font bold */
-            color: #007bff; /* Optional: changes text color to Bootstrap primary color */
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
         }
     </style>
 </head>
