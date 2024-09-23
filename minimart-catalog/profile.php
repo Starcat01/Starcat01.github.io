@@ -19,7 +19,7 @@ function getUser(){
 
 <?php
  if(isset($_POST['btn_upload_photo'])){
-    $id         = $_SESSION['id']; //Typo: $_SESSION not $_SESSON
+    $id         = $_SESSION['id']; 
     $photo_name = $_FILES['photo']['name'];
     $photo_tmp  = $_FILES['photo']['tmp_name'];
 
