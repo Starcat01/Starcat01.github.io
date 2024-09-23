@@ -31,7 +31,7 @@ function getUser(){
     $sql  = "UPDATE users SET photo = '$photo_name' WHERE id = $id";
 
     if($conn->query($sql)){
-        $destination = "assets/images/$photo_name";
+        $destination = "../assets/images/$photo_name";
         move_uploaded_file($photo_tmp, $destination);
         header("refresh: 0");
     } else{ // Typo: elese should be else
