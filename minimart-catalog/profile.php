@@ -18,6 +18,7 @@ function getUser(){
 ?>
 
 <?php
+
  if(isset($_POST['btn_upload_photo'])){
     $id         = $_SESSION['id']; 
     $photo_name = $_FILES['photo']['name'];
@@ -31,7 +32,7 @@ function getUser(){
     $sql  = "UPDATE users SET photo = '$photo_name' WHERE id = $id";
 
     if($conn->query($sql)){
-        $destination = "../assets/images/$photo_name";
+        $destination = "assets/images/$photo_name";
         move_uploaded_file($photo_tmp, $destination);
         header("refresh: 0");
     } else{ // Typo: elese should be else
@@ -63,7 +64,7 @@ function getUser(){
                 <?php
                 if ($user['photo']) {
                     ?>
-                    <img src="assets/images/<?= $user['photo'] ?>" alt="<?= $user['photo'] ?>" 
+                    <img src="../assets/images/<?= $user['photo'] ?>" alt="<?= $user['photo'] ?>" 
                     class="d-block mx-auto img-thumbnail profile-photo">  
                     <?php
                 } else {
