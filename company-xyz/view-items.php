@@ -19,7 +19,7 @@
     }
 
     $items = getAllItems();
-
+   
 ?>
 
 <!DOCTYPE html>
@@ -32,7 +32,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+<?php
+    include "main-nav.php";
+    ?>
         <div class="container-fluid">
             <div class="card w-75 mx-auto my-5">
                 <div class="card-header">
@@ -61,6 +63,7 @@
                                     echo "<td>";
                                     echo "<a href='edit-item.php?id=". $row["id"] ."' class='btn btn-primary'>Edit</a>";
                                     echo "<a href='delete-item.php?id=". $row["id"] ."' class='btn btn-danger'>Delete</a>";
+                                
                                     echo "</td>";
                                     echo "</tr>";
                                 }
